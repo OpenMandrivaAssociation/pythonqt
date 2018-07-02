@@ -31,7 +31,7 @@ Summary:        Lightweight script binding of the Qt framework to the Python lan
 Group:          Development/Python
 Requires:       %{libname}= %{EVRD}
 
-%description -n %{dename}
+%description -n %{devname}
 Header files and development libraries for pythonqt package. PythonQt
 is a dynamic and lightweight script binding of the Qt framework
 to the Python language.
