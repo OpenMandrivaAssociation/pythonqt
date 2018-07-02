@@ -1,0 +1,42 @@
+diff -uNr PythonQt3.2.orig/generated_cpp_56/com_trolltech_qt_core/com_trolltech_qt_core1.cpp PythonQt3.2.strformat/generated_cpp_56/com_trolltech_qt_core/com_trolltech_qt_core1.cpp
+--- PythonQt3.2.orig/generated_cpp_56/com_trolltech_qt_core/com_trolltech_qt_core1.cpp	2016-06-09 12:56:40.000000000 +0200
++++ PythonQt3.2.strformat/generated_cpp_56/com_trolltech_qt_core/com_trolltech_qt_core1.cpp	2017-06-08 08:51:51.822855630 +0200
+@@ -4951,32 +4951,32 @@
+ 
+ void PythonQtWrapper_QMessageLogger::critical(QMessageLogger* theWrappedObject, const char*  msg) const
+ {
+-  ( theWrappedObject->critical(msg));
++  ( theWrappedObject->critical("%s", msg));
+ }
+ 
+ void PythonQtWrapper_QMessageLogger::debug(QMessageLogger* theWrappedObject, const char*  msg) const
+ {
+-  ( theWrappedObject->debug(msg));
++  ( theWrappedObject->debug("%s", msg));
+ }
+ 
+ void PythonQtWrapper_QMessageLogger::fatal(QMessageLogger* theWrappedObject, const char*  msg) const
+ {
+-  ( theWrappedObject->fatal(msg));
++  ( theWrappedObject->fatal("%s", msg));
+ }
+ 
+ void PythonQtWrapper_QMessageLogger::info(QMessageLogger* theWrappedObject, const char*  msg) const
+ {
+-  ( theWrappedObject->info(msg));
++  ( theWrappedObject->info("%s", msg));
+ }
+ 
+ void PythonQtWrapper_QMessageLogger::noDebug(QMessageLogger* theWrappedObject, const char*  arg__1) const
+ {
+-  ( theWrappedObject->noDebug(arg__1));
++  ( theWrappedObject->noDebug("%s", arg__1));
+ }
+ 
+ void PythonQtWrapper_QMessageLogger::warning(QMessageLogger* theWrappedObject, const char*  msg) const
+ {
+-  ( theWrappedObject->warning(msg));
++  ( theWrappedObject->warning("%s", msg));
+ }
+ 
+ 
