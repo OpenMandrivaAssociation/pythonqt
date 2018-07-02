@@ -16,6 +16,12 @@ BuildRequires:  qmake5
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(python3)
 
+%description
+PythonQt is a dynamic and lightweight script binding of the Qt framework
+to the Python language. It can be easily embedded into Qt applications and
+makes any QObject derived object scriptable via Python without the need of
+wrapper code generation.
+
 %package -n %{libname}
 Summary:        Lightweight script binding of the Qt framework to the Python language
 Group:          Development/Python
