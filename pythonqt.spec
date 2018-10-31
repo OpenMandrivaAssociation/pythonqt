@@ -4,7 +4,7 @@
 
 Name:           pythonqt
 Version:        3.2
-Release:        1
+Release:        2
 Summary:        Lightweight script binding of the Qt framework to the Python language
 License:        LGPLv2+
 URL:            http://pythonqt.sourceforge.net
